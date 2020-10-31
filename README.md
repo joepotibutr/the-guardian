@@ -3,17 +3,27 @@
 
 The Guardian API playground.
 
-  - Be able to get list of articles
+  - Be able to get a list of articles
   - Be able to search within typing
   - Be able to detail of single article item
+  - Be able to sort by oldest or newest
+
+  
 
 ### Tech
 * React.js - Frontend SPA
 * styled-components - Styling component in React
-* axios - HTTP request
-* Express.js - node.js server side calling API from The Guardian
+* axios - Browser HTTP request
+* Express.js - Node.js server side calling API from The Guardian
 
 ### Installation
+
+  
+  This repository contains submodules from
+  client: https://github.com/joepotibutr/the-guardian-client
+  server: https://github.com/joepotibutr/the-guardian-server
+  
+  You can clone each repo or install all submodules by following the instruction below:
 
 ```sh
 $ git clone https://github.com/joepotibutr/the-guardian.git
@@ -35,7 +45,8 @@ $ npm start
 Create command line new window and navigate to the-guardian folder
 
 $ cd packages/client
-npm install
 
-npm start
+$ npm install
+
+$ npm start
 ```
