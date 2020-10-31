@@ -34,6 +34,11 @@ $ cd the-guardian
 
 $ git submodule update --init --recursive
 
+```
+### Server
+
+```sh
+
 $ cd packages/server
 
 $ npm install
@@ -42,10 +47,12 @@ Create .env file in directory folder
 
 Put this line GUARDIAN_API="58bc3342-c5f4-426d-a41d-fe16f9a0dd91” into .env file
 
-$ npm start
+$ npm run dev
 
-Create command line new window and navigate to the-guardian folder
+```
+### Client
 
+```sh
 $ cd packages/client
 
 $ npm install
