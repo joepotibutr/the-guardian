@@ -22,6 +22,7 @@ The Guardian API playground.
   This repository contains submodules from
   
   Client: https://github.com/joepotibutr/the-guardian-client
+  
   Server: https://github.com/joepotibutr/the-guardian-server
   
   You can clone each repo or install all submodules by following the instruction below:
