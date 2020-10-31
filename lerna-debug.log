@@ -1,0 +1,5 @@
+31 error Error: Command failed: git add -- packages/server/package.json packages/server/package-lock.json packages/client/package.json packages/client/package-lock.json
+31 error fatal: Pathspec 'packages/client/package.json' is in submodule 'packages/client'
+31 error
+31 error     at makeError (/Users/joe/.nvm/versions/node/v12.8.1/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+31 error     at /Users/joe/.nvm/versions/node/v12.8.1/lib/node_modules/lerna/node_modules/execa/index.js:278:16
