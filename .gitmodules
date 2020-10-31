@@ -1,6 +1,7 @@
 [submodule "packages/client"]
 	path = packages/client
 	url = https://github.com/joepotibutr/the-guardian-client.git
+	branch = master
 [submodule "packages/server"]
 	path = packages/server
 	url = https://github.com/joepotibutr/the-guardian-server.git
